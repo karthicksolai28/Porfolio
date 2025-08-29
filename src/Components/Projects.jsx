@@ -1,6 +1,6 @@
 import React from 'react';
 import event from '../assets/event.webp';
-import climate from "../assets/climate.jpg";
+import reset from "../assets/Reset.png";
 import movie from "../assets/movie.png";
 import Flight from "../assets/Flight.jpg";
 import { FaReact } from "react-icons/fa";
@@ -89,31 +89,41 @@ const projects = [
   {
     title: 'Event Management System',
     description: 'Collaborative task management with real-time updates and tracking.',
-    tech: ['React.js', 'Tailwind CSS', 'Node.js', 'MongoDB'],
+    tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
     features: ['Real-time Updates', 'Team Collaboration', 'Task Analytics', 'File Attachments'],
     code: 'https://github.com/SwaminathanVK/EventManagement-Frontend',
     demo: 'https://famous-souffle-ff686b.netlify.app/',
     image: event,
   },
   {
-    title: 'Weather Dashboard',
-    description: 'Weather forecasts, interactive maps, and detailed analytics.',
-    tech: ['React.js', 'JavaScript', 'Tailwind CSS'],
-    features: ['API Integration', 'Location Search', 'Interactive Maps', 'Mobile Responsive'],
-    code: 'https://github.com/SwaminathanVK/-Climate-Viewer.git',
-    demo: 'https://climateviewer.netlify.app/',
-    image: climate,
-  },
-  {
     title: 'Flight Booking System',
     description:
       '"Built a dynamic, full-featured flight booking web app using React.js and Tailwind CSS with role-based access, real-time search, booking management, and secure user authentication.".',
-    tech: ['React.js', 'API', 'JavaScript','Node.js,MongoDB'],
+    tech: ['React.js', 'API', 'JavaScript','Node.js', 'Express','MongoDB'],
     features: ['Multi-platform Support', 'Post Scheduling', 'Flight Booking', 'Authentication'],
     code: 'https://github.com/SwaminathanVK/Flight_Booking_System-FE.git',
     demo: 'https://letsflyy.netlify.app/',
     image: Flight,
   },
+  {
+    title: 'SecureReset',
+    description:
+      'A user can register, log in, manage their profile, and perform CRUD operations with secure authentication, all within a responsive web interface.',
+    tech: ['React.js', 'API', 'JavaScript','Node.js', 'Express','MongoDB','Bootstrap'],
+    features: ['Multi-platform Support', 'Post Scheduling', 'Authorization', 'Authentication'],
+    code: 'https://github.com/SwaminathanVK/passwordReset_frontend',
+    demo: 'https://passwordresetappflow.netlify.app/',
+    image: reset,
+  },
+  // {
+  //   title: 'Weather Dashboard',
+  //   description: 'Weather forecasts, interactive maps, and detailed analytics.',
+  //   tech: ['React.js', 'JavaScript', 'Tailwind CSS'],
+  //   features: ['API Integration', 'Location Search', 'Interactive Maps', 'Mobile Responsive'],
+  //   code: 'https://github.com/SwaminathanVK/-Climate-Viewer.git',
+  //   demo: 'https://climateviewer.netlify.app/',
+  //   image: climate,
+  // },
   {
     title: 'Movie Viewer',
     description:
