@@ -1,6 +1,6 @@
 import React from 'react';
 import event from '../assets/event.webp';
-import reset from "../assets/Reset.png";
+import expense from "../assets/Expense.png";
 import movie from "../assets/movie.png";
 import Flight from "../assets/Flight.jpg";
 import { FaReact } from "react-icons/fa";
@@ -48,12 +48,20 @@ const Projects = () => {
 
                 <div className="mt-4 flex space-x-4">
                   <a
-                    href={project.code}
+                    href={project.codeFE}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-900"
                   >
-                    Code
+                    Frontend Code
+                  </a>
+                  <a
+                    href={project.codeBE}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-900"
+                  >
+                    Backend Code
                   </a>
                   <a
                     href={project.demo}
@@ -91,7 +99,8 @@ const projects = [
     description: 'Collaborative task management with real-time updates and tracking.',
     tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
     features: ['Real-time Updates', 'Team Collaboration', 'Task Analytics', 'File Attachments'],
-    code: 'https://github.com/SwaminathanVK/EventManagement-Frontend',
+    codeFE: 'https://github.com/SwaminathanVK/EventManagement-Frontend',
+    codeBE: 'https://github.com/SwaminathanVK/EventManagement_Backend.git',
     demo: 'https://famous-souffle-ff686b.netlify.app/',
     image: event,
   },
@@ -101,19 +110,21 @@ const projects = [
       '"Built a dynamic, full-featured flight booking web app using React.js and Tailwind CSS with role-based access, real-time search, booking management, and secure user authentication.".',
     tech: ['React.js', 'API', 'JavaScript','Node.js', 'Express','MongoDB'],
     features: ['Multi-platform Support', 'Post Scheduling', 'Flight Booking', 'Authentication'],
-    code: 'https://github.com/SwaminathanVK/Flight_Booking_System-FE.git',
+    codeFE: 'https://github.com/SwaminathanVK/Flight_Booking_System-FE.git',
+    codeBE: 'https://github.com/SwaminathanVK/Flight_Booking_System-BE.git',
     demo: 'https://letsflyy.netlify.app/',
     image: Flight,
   },
   {
-    title: 'SecureReset',
+    title: 'Expense Tracker',
     description:
       'A user can register, log in, manage their profile, and perform CRUD operations with secure authentication, all within a responsive web interface.',
-    tech: ['React.js', 'API', 'JavaScript','Node.js', 'Express','MongoDB','Bootstrap'],
-    features: ['Multi-platform Support', 'Post Scheduling', 'Authorization', 'Authentication'],
-    code: 'https://github.com/SwaminathanVK/passwordReset_frontend',
+    tech: ['React.js', 'API', 'JavaScript','Node.js', 'Express','MongoDB','TailwindCss'],
+    features: ['Multi-platform Support', 'Graphical View ', 'Authorization', 'Authentication'],
+    codeFE: 'https://github.com/SwaminathanVK/expense-Tracker-FE',
+    codeBE: 'https://github.com/SwaminathanVK/expense-Tracker-BE',
     demo: 'https://passwordresetappflow.netlify.app/',
-    image: reset,
+    image: expense,
   },
   // {
   //   title: 'Weather Dashboard',
@@ -129,8 +140,9 @@ const projects = [
     description:
       'Search for movies by title using the OMDb API. Displays poster, title, year, genre, plot, and more.',
     tech: ['React.js', 'API', 'JavaScript'],
-    features: ['Multi-platform Support', 'Post Scheduling', 'Analytics Dashboard', 'Content Management'],
-    code: 'https://github.com/SwaminathanVK/Movie-SearchingApi.git',
+    features: [ 'Api Fetching', 'Analytics Dashboard', 'Content Management'],
+    codeFE: 'https://github.com/SwaminathanVK/Movie-SearchingApi.git',
+    codeBE: 'https://github.com/SwaminathanVK/Movie-SearchingApi.git',
     demo: 'https://moviesearcherapi.netlify.app/',
     image: movie,
   },
