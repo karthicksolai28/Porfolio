@@ -54,8 +54,8 @@ const Footer = () => {
             <p>📍 Thiruvarur, Tamil Nadu</p>
           </div>
           <div className="flex gap-4 mt-4">
-            <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-white hover:text-black"><FaGithub /></a>
-            <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-white hover:text-black"><FaLinkedin /></a>
+            <a href="https://github.com/SwaminathanVK" className="bg-gray-700 p-2 rounded-full hover:bg-white hover:text-black"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/swaminathan-vk-548218383/" className="bg-gray-700 p-2 rounded-full hover:bg-white hover:text-black"><FaLinkedin /></a>
             {/* <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-white hover:text-black"><FaTwitter /></a> */}
             <a href="mailto:swaminathan.vk@example.com" className="bg-gray-700 p-2 rounded-full hover:bg-white hover:text-black"><FaEnvelope /></a>
           </div>

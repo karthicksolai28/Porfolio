@@ -60,7 +60,7 @@ function Hero() {
             className='bg-gray-300 hover:bg-gray-400 w-10 h-10 flex items-center justify-center rounded-full text-xl'>
             <SiGithub />
           </a>
-          <a href='https://www.linkedin.com/in/swaminathan-vk/' target="_blank" rel="noopener noreferrer"
+          <a href='https://www.linkedin.com/in/swaminathan-vk-548218383/' target="_blank" rel="noopener noreferrer"
             className='bg-gray-300 hover:bg-gray-400 w-10 h-10 flex items-center justify-center rounded-full text-xl'>
             <BsLinkedin />
           </a>
