@@ -5,9 +5,9 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 import { GrDownload } from "react-icons/gr";
 import { FaLaptopCode } from "react-icons/fa";
 import "./Hero.css";
-import solaipic from '../assets/solaipic.png'; // use your actual path
+import solaipic from '../assets/solaipic.PNG'; // use your actual path
 
-import heroimg from "../assets/solaipic.png"; // use your actual path
+import heroimg from "../assets/solaipic.PNG"; // use your actual path
 
 function Hero() {
   const download = () => {
