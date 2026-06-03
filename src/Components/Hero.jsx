@@ -7,7 +7,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import "./Hero.css";
 import solaipic from '../assets/solaipic.PNG'; // use your actual path
 
-import heroimg from "../assets/solaipic.PNG"; // use your actual path
+import heroimg from "../assets/solaipic1.jpg"; // use your actual path
 
 function Hero() {
   const download = () => {
