@@ -17,7 +17,7 @@ function App() {
 
       {/* All sections are full width and internally padded */}
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Certifications />
       <Education />
       <Achievement />

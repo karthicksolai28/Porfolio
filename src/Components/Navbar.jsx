@@ -26,11 +26,11 @@ function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         {/* Brand */}
-        <h3 className="font-bold text-xl sm:text-2xl ml-2">SWAMINATHAN VK</h3>
+        <h3 className="font-bold text-xl sm:text-2xl ml-2">M KARTHICK SOLAI</h3>
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-6 font-semibold text-base items-center">
-          {["home", "about", "project", "certification", "education", "contact"].map((section) => (
+          {["home", "about", "certification", "education", "contact"].map((section) => (
             <li key={section}>
               <a
                 href={`#${section}`}
@@ -58,7 +58,7 @@ function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 font-medium text-base text-gray-800 dark:text-white bg-white dark:bg-gray-900">
-          {["home", "about", "project", "certification", "education", "contact"].map((section) => (
+          {["home", "about", "certification", "education", "contact"].map((section) => (
             <a
               key={section}
               href={`#${section}`}

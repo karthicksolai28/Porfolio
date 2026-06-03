@@ -2,9 +2,9 @@ import React from "react";
 import { FaAward } from "react-icons/fa";
 
 // Replace with your real image paths
-import awardImg1 from "../assets/gAward.JPG";
-import awardImg2 from "../assets/Speak.JPG";
-import awardImg3 from "../assets/Award.JPG";
+import awardImg1 from "../assets/pic1.jpeg";
+import awardImg2 from "../assets/pic2.jpeg";
+import awardImg3 from "../assets/pic3.jpeg";
 
 function Achievements() {
   const images = [awardImg1, awardImg2, awardImg3];

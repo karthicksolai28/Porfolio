@@ -54,7 +54,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-semibold">Email</p>
-                <p className="text-gray-600">iamswami19@gmail.com</p>
+                <p className="text-gray-600">karthicksolai28114@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -63,7 +63,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-semibold">Location</p>
-                <p className="text-gray-600">Thiruvarur, Tamil Nadu</p>
+                <p className="text-gray-600">Chennai, Tamil Nadu</p>
               </div>
             </div>
           </div>
@@ -71,10 +71,10 @@ const Contact = () => {
           <hr className="my-6" />
           <p className="font-semibold mb-2">Follow Me</p>
           <div className="flex gap-4">
-            <a href="https://github.com/SwaminathanVK" target="_blank" rel="noreferrer">
+            <a href="https://github.com/karthicksolai28" target="_blank" rel="noreferrer">
               <FaGithub className="text-2xl text-gray-600 hover:text-black" />
             </a>
-            <a href="https://www.linkedin.com/in/swaminathan-vk-548218383/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/m-karthicksolai/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXcdm7T0XR3ufXjz6VBY0Aw%3D%3D" target="_blank" rel="noreferrer">
               <FaLinkedin className="text-2xl text-blue-600 hover:text-blue-800" />
             </a>
           </div>

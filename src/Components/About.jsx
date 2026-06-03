@@ -34,7 +34,7 @@ function About() {
             My Journey
           </h2>
           <p className="text-gray-700 text-md leading-relaxed">
-            I’m <span className="font-semibold text-black">Swaminathan VK</span>
+            I’m <span className="font-semibold text-black">M Karthick Solai</span>
             , a passionate B.E. Electronics and Communication Engineering
             graduate from Hindusthan Institute of Technology, Coimbatore.
             <br />
@@ -47,7 +47,7 @@ function About() {
             My curiosity for building practical digital solutions led me into
             the world of web development, where I recently completed an
             intensive MERN Stack training program from{" "}
-            <span className="font-semibold text-black">GUVI Zen Class</span>. I
+            <span className="font-semibold text-black">Besant Technology</span>. I
             specialize in creating full-stack applications using MongoDB,
             Express.js, React.js, and Node.js, focusing on clean architecture
             and seamless user experiences.
@@ -109,10 +109,10 @@ function About() {
                   icon: <SiCss3 size={30} className="text-blue-600" />,
                   name: "CSS",
                 },
-                {
-                  icon: <SiTailwindcss size={30} className="text-cyan-500" />,
-                  name: "Tailwind CSS",
-                },
+                // {
+                //   icon: <SiTailwindcss size={30} className="text-cyan-500" />,
+                //   name: "Tailwind CSS",
+                // },
                 {
                   icon: <SiBootstrap size={30} className="text-violet-500" />,
                   name: "Bootstrap",

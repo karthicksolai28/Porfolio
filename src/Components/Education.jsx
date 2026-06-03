@@ -33,7 +33,7 @@ function Education() {
                   <span className="bg-purple-100 text-purple-700 text-xs font-semibold px-2 py-1 rounded-full">
                     Degree
                   </span>
-                  <span className="text-sm text-gray-500">2021 - 2025</span>
+                  <span className="text-sm text-gray-500">2022 - 2026</span>
                 </div>
                 <h3 className="text-lg font-semibold mb-1">
                   Bachelor of Engineering – Electronics & Communication
@@ -44,7 +44,7 @@ function Education() {
                 <p className="text-gray-600 text-sm flex items-center gap-1">
                   <FaMapMarkerAlt /> Coimbatore, Tamil Nadu
                 </p>
-                <p className="text-purple-600 font-semibold mt-2">🌸 7.8 CGPA</p>
+                <p className="text-purple-600 font-semibold mt-2">🌸 7.6 CGPA</p>
               </div>
             </div>
             <div className="w-1/2"></div>
@@ -60,16 +60,16 @@ function Education() {
                   <span className="bg-purple-100 text-purple-700 text-xs font-semibold px-2 py-1 rounded-full">
                     Certification
                   </span>
-                  <span className="text-sm text-gray-500">2025</span>
+                  <span className="text-sm text-gray-500">2026</span>
                 </div>
                 <h3 className="text-lg font-semibold mb-1">
                   Full Stack Development – MERN Stack
                 </h3>
                 <p className="text-gray-600 text-sm flex items-center gap-1">
-                  <MdOutlineSchool /> Guvi Zen Class
+                  <MdOutlineSchool /> Besant Technology
                 </p>
                 <p className="text-gray-600 text-sm flex items-center gap-1">
-                  <FaMapMarkerAlt /> Online
+                  <FaMapMarkerAlt /> Offline,Chennai
                 </p>
                 <p className="text-purple-600 font-semibold mt-2">🌸 Completed</p>
               </div>

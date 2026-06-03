@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGamepad, FaPalette, FaMusic, FaCoffee, FaCamera, FaGlobe } from 'react-icons/fa';
-import { MdCode, MdExplore, MdSchool } from 'react-icons/md';
+import { MdCode, MdExplore, MdSchool, } from 'react-icons/md';
 
 const hobbies = [
   { icon: <MdCode size={30} />, title: "Coding", desc: "Building innovative solutions and exploring new technologies", bg: "bg-indigo-100" },
@@ -10,7 +10,8 @@ const hobbies = [
   { icon: <FaGamepad size={30} />, title: "Gaming", desc: "Playing strategy games and exploring virtual worlds", bg: "bg-orange-100" },
   { icon: <FaCamera size={30} />, title: "Photography", desc: "Capturing moments and exploring creative perspectives", bg: "bg-blue-100" },
   { icon: <MdExplore size={30} />, title: "Exploring", desc: "Discovering new places and cultures", bg: "bg-teal-100" },
-  { icon: <FaCoffee size={30} />, title: "Coffee", desc: "Enjoying different coffee blends while coding", bg: "bg-yellow-100" }
+  { icon: <FaGlobe size={30} />, title: "Traveling", desc: "Experiencing new cultures and broadening horizons", bg: "bg-yellow-100" },
+  // { icon: <FaCoffee size={30} />, title: "Coffee", desc: "Enjoying different coffee blends while coding", bg: "bg-yellow-100" }
 ];
 
 const Hobbies = () => {
@@ -37,11 +38,11 @@ const Hobbies = () => {
         <div className="flex justify-around text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 font-bold text-lg">
           <div>
             <FaCoffee className="mx-auto mb-1" />
-            365+ <p className="text-gray-500 text-sm font-medium">Cups of Coffee/Year</p>
+            50+ <p className="text-gray-500 text-sm font-medium">Travel Covered India</p>
           </div>
           <div>
             <MdSchool className="mx-auto mb-1" />
-            50+ <p className="text-gray-500 text-sm font-medium">Tech Articles/Month</p>
+            500+ <p className="text-gray-500 text-sm font-medium">Photos Shoot</p>
           </div>
           <div>
             <FaMusic className="mx-auto mb-1" />

@@ -5,54 +5,54 @@ import { FaMedal } from "react-icons/fa";
 const certifications = [
   {
     title: "Full Stack Development Certificate",
-    platform: "Guvi Zen Class",
-    year: "2025",
+    platform: "Besant Technology",
+    year: "2026",
     description:
       "Comprehensive MERN Stack development training covering React, Node.js, MongoDB, and Express.js",
     skills: ["React.js", "Node.js", "MongoDB", "Express.js", "JavaScript"],
     color: "from-green-400 to-blue-500",
-    link: "https://v2.zenclass.in/certificateDownload/ma7TB04TuJanMScB?download=true",
+    link: "#",
   },
   {
-    title: "JavaScript Fundamentals",
-    platform: "Guvi Zen Class",
-    year: "2025",
+    title: "MySql Fundamentals",
+    platform: "Besant Technology",
+    year: "2026",
     description:
-      "Advanced JavaScript concepts including ES6+, async programming, and modern development practices",
-    skills: ["ES6+", "Async/Await", "DOM Manipulation", "API Integration"],
+      "Advanced MySQL concepts and modern development practices",
+    skills: ["Sql Queries", "Database Design"],
     color: "from-yellow-400 to-orange-500",
     link: "#",
   },
   {
-    title: "React Developer Certification",
-    platform: "Development Academy",
+    title: "React Native Internship",
+    platform: "Jackals Software Solutions",
     year: "2025",
     description:
-      "React fundamentals, hooks, routing, state management, and performance optimization",
-    skills: ["JSX", "Hooks", "React Router", "Redux"],
+      "React Native fundamentals, hooks, routing, state management, and performance optimization",
+    skills: ["JSX", "Hooks", "Expo Go", "Concepts"],
     color: "from-cyan-400 to-blue-500",
-    link: "https://v2.zenclass.in/certificateDownload/IhaGbhysRjQtjgNO?download=true",
+    link: "#",
   },
   {
-    title: "Backend Development with Node.js",
-    platform: "Guvi Zen Class",
-    year: "2025",
+    title: "Postman API Testing",
+    platform: "Infosis Springboard",
+    year: "2024",
     description:
-      "Backend concepts with Node.js, REST APIs, Express middleware, and error handling",
-    skills: ["Node.js", "Express", "REST API", "JWT"],
+      "Postman is an API development and testing tool used to send requests, validate responses, and automate API testing",
+    skills: ["API Testing", "GET, POST, PUT, DELETE Requests", "REST API", "Collection Management"],
     color: "from-green-400 to-emerald-500",
-    link: "https://v2.zenclass.in/certificateDownload/qYUQILWd14s2AkAq?download=true",
+    link: "#",
   },
-  {
-    title: " Accenture Nordics's Software Engineering",
-    platform: "Accenture Forage",
-    year: "2025",
-    description:
-      "Demonstrated architecture planning, secure coding, testing, and Agile delivery in a real-world scenario-based simulation.",
-    skills: ["Security & SDLC", "Architecture", "Methodologies"],
-    color: "from-green-400 to-emerald-500",
-    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/xhih9yFWsf6AYfngd/HNpZwZcuYwona2d8Y_xhih9yFWsf6AYfngd_gSfuRxZMk36Zn2yyk_1753610804264_completion_certificate.pdf",
-  },
+  // {
+  //   title: " Accenture Nordics's Software Engineering",
+  //   platform: "Accenture Forage",
+  //   year: "2025",
+  //   description:
+  //     "Demonstrated architecture planning, secure coding, testing, and Agile delivery in a real-world scenario-based simulation.",
+  //   skills: ["Security & SDLC", "Architecture", "Methodologies"],
+  //   color: "from-green-400 to-emerald-500",
+  //   link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/xhih9yFWsf6AYfngd/HNpZwZcuYwona2d8Y_xhih9yFWsf6AYfngd_gSfuRxZMk36Zn2yyk_1753610804264_completion_certificate.pdf",
+  // },
 ];
 
 const Certifications = () => {
@@ -95,13 +95,13 @@ const Certifications = () => {
                     </span>
                   ))}
                 </div>
-                <a
+                {/* <a
                   href={cert.link}
                   className="inline-flex items-center gap-2 bg-white text-purple-600 font-medium px-4 py-2 rounded-md hover:bg-purple-100 transition"
                 >
                   <FaExternalLinkAlt className="text-sm" />
                   View Certificate
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

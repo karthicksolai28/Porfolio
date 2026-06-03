@@ -80,7 +80,7 @@ const Projects = () => {
         {/* View More Button */}
         <div className="flex justify-center mt-12">
           <a
-            href="https://github.com/SwaminathanVK?tab=repositories"
+            href="https://github.com/karthicksolai28"
             className="px-6 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-full text-sm font-semibold shadow-md"
             target="_blank"
             rel="noopener noreferrer"
